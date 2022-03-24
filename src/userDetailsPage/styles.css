@@ -1,19 +1,39 @@
 .user-card {
-    left: 50%;
-    transform: translate(-50%);
-    margin: 10px;
-  }
-  
-  .user-icon {
-    margin-right: 3px;
-  }
-  
-  .user-email,
-  .user-phone,
-  .user-website {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-  }
-  
+  margin: 10px;
+  text-align: left;
+}
+
+.back {
+  text-align: left;
+}
+.back-button {
+  background-color: grey;
+  border-color: grey;
+}
+
+.user-icon {
+  margin-right: 3px;
+}
+
+.user-email,
+.user-phone,
+.user-website,
+.user-address,
+.user-company {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  gap: 5px;
+}
+
+.posts-container,
+.albums-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+}
+
+.search {
+  margin: 30px;
+}
