@@ -1,0 +1,19 @@
+.user-card {
+    left: 50%;
+    transform: translate(-50%);
+    margin: 10px;
+  }
+  
+  .user-icon {
+    margin-right: 3px;
+  }
+  
+  .user-email,
+  .user-phone,
+  .user-website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
